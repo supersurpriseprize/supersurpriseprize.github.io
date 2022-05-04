@@ -1,0 +1,232 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1465,
+      "type": "VEC3",
+      "max": [
+        1.2999290227890015,
+        5.5618104934692383,
+        1.3186328411102295
+      ],
+      "min": [
+        -1.4311226606369019,
+        1.1547303074621595E-05,
+        -1.1224324703216553
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1465,
+      "type": "VEC3",
+      "max": [
+        0.99893027544021606,
+        1.0,
+        0.99866485595703125
+      ],
+      "min": [
+        -0.99711644649505615,
+        -1.0,
+        -0.995407223701477
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1465,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        0.99868422746658325,
+        0.99947136640548706,
+        -1.0
+      ],
+      "min": [
+        -0.99674063920974731,
+        -0.99898248910903931,
+        -0.99940776824951172,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 1465,
+      "type": "VEC2",
+      "max": [
+        0.20934581756591797,
+        0.9586605429649353
+      ],
+      "min": [
+        0.0662158727645874,
+        0.81883144378662109
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 1470,
+      "type": "SCALAR",
+      "max": [
+        1464.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "plants.bin",
+      "byteLength": 76200
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 17580
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 17580,
+      "byteLength": 17580
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 35160,
+      "byteLength": 23440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 58600,
+      "byteLength": 11720
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 70320,
+      "byteLength": 5880
+    }
+  ],
+  "images": [
+    {
+      "uri": "NaturePackLite_Texture_01.jpg",
+      "name": "NaturePackLite_Texture_01"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.75
+      },
+      "name": "SimpleNaturePack_Texture_01"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "Tree_01"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.365
+      ],
+      "name": "plants"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.009999999,
+        0.009999999,
+        0.01
+      ],
+      "translation": [
+        0.0009999999,
+        0.0,
+        -0.69
+      ],
+      "name": "Tree_01"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.009999999,
+        0.009999999,
+        0.01
+      ],
+      "translation": [
+        0.504,
+        0.0,
+        0.005
+      ],
+      "name": "Tree_01 (1)"
+    }
+  ],
+  "samplers": [
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "plants"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "NaturePackLite_Texture_01"
+    }
+  ]
+}

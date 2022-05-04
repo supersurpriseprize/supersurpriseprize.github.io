@@ -1,0 +1,402 @@
+{
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 18211,
+      "type": "VEC3",
+      "max": [
+        0.06565508246421814,
+        0.031582269817590714,
+        0.054565418511629105
+      ],
+      "min": [
+        -0.065655075013637543,
+        0.0,
+        -0.0545654222369194
+      ]
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 18211,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 18211,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -1.0,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 18211,
+      "type": "VEC2",
+      "max": [
+        0.99853515625,
+        0.99853515625
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5125,
+      "count": 83610,
+      "type": "SCALAR",
+      "max": [
+        18210.0
+      ],
+      "min": [
+        0.0
+      ]
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 8048,
+      "type": "VEC3",
+      "max": [
+        0.0504077672958374,
+        0.0644620731472969,
+        0.21038337051868439
+      ],
+      "min": [
+        -0.090459316968917847,
+        0.0,
+        0.085179992020130157
+      ]
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 8048,
+      "type": "VEC3",
+      "max": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.999958872795105,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5126,
+      "count": 8048,
+      "type": "VEC4",
+      "max": [
+        1.0,
+        1.0,
+        1.0,
+        1.0
+      ],
+      "min": [
+        -0.99999988079071045,
+        -1.0,
+        -1.0,
+        -1.0
+      ]
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 8048,
+      "type": "VEC2",
+      "max": [
+        9.9853515625,
+        9.0745725631713867
+      ],
+      "min": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5125,
+      "count": 33492,
+      "type": "SCALAR",
+      "max": [
+        8047.0
+      ],
+      "min": [
+        0.0
+      ]
+    }
+  ],
+  "asset": {
+    "generator": "Plattar UnityGLTF (2020.3.19f1)",
+    "version": "2.0"
+  },
+  "buffers": [
+    {
+      "uri": "3d.bin",
+      "byteLength": 1728840
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 218532
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 218532,
+      "byteLength": 218532
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 437064,
+      "byteLength": 291376
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 728440,
+      "byteLength": 145688
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 874128,
+      "byteLength": 334440
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1208568,
+      "byteLength": 96576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1305144,
+      "byteLength": 96576
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1401720,
+      "byteLength": 128768
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1530488,
+      "byteLength": 64384
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 1594872,
+      "byteLength": 133968
+    }
+  ],
+  "images": [
+    {
+      "uri": "Colorsheet Rock Orange.jpg",
+      "name": "Colorsheet Rock Orange"
+    },
+    {
+      "uri": "Palette.png",
+      "name": "Palette"
+    }
+  ],
+  "materials": [
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "name": "Orange"
+    },
+    {
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 1
+        },
+        "metallicFactor": 0.0,
+        "roughnessFactor": 0.5
+      },
+      "name": "Palette"
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0
+        }
+      ],
+      "name": "default"
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 5,
+            "NORMAL": 6,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 1
+        }
+      ],
+      "name": "default"
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1,
+        3
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        0.35,
+        0.35,
+        0.365
+      ],
+      "name": "3d"
+    },
+    {
+      "children": [
+        2
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        3.0,
+        3.0,
+        3.0
+      ],
+      "translation": [
+        0.498999953,
+        0.0174657684,
+        -0.915999949
+      ],
+      "name": "Raum Folge Prusa2 mm"
+    },
+    {
+      "mesh": 0,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "default"
+    },
+    {
+      "children": [
+        4
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "scale": [
+        2.0,
+        2.0,
+        2.0
+      ],
+      "translation": [
+        -0.09099999,
+        0.0,
+        0.264
+      ],
+      "name": "Raummasse (1)"
+    },
+    {
+      "mesh": 1,
+      "rotation": [
+        0.0,
+        0.0,
+        0.0,
+        -1.0
+      ],
+      "name": "default"
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9728,
+      "minFilter": 9984,
+      "WrapS": 33071,
+      "WrapT": 33071
+    },
+    {
+      "minFilter": 9729
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ],
+      "name": "3d"
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0,
+      "name": "Colorsheet Rock Orange"
+    },
+    {
+      "sampler": 1,
+      "source": 1,
+      "name": "Palette"
+    }
+  ]
+}
